@@ -1,8 +1,9 @@
-from django.conf.urls import url,include
+from turtle import home
+from django.urls import path,include
 from django.contrib import admin
 from.import views
 
 
 urlpatterns = [
-    url(r'^$',view=home,name=home),
+    path(r'^$',view= home,name= home),
 ]
