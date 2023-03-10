@@ -5,5 +5,5 @@ from .import views
 
 
 urlpatterns = [
-    url(r'^$', view=home, name=home),
+    url(r'^$', views.home, name=home),
 ]
